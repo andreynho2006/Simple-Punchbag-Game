@@ -5,3 +5,14 @@
     background: url(/img/bag.png) center no-repeat;
     background-size: 80%;
 }
+
+#bag-health {
+    widows: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+#bag-health div {
+    height: 20px;
+    background: crimson;
+}
