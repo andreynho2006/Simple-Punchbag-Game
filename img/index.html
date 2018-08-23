@@ -15,12 +15,12 @@
 
             <!-- bag health -->
             <div id="bag-health">
-                <div></div>
+                <div v-bind:style="{ width: health + '%'}"></div>
             </div>
 
             <!-- game controls -->
             <div id="controls">
-                <button v-on:click="punch">Punch</button>
+                <button v-on:click="punch" v-show="!ended">Punch</button>
                 <button v-on:click="restart">Restart</button>
             </div>
 
